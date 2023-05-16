@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #344E41;
+    color: #DAD7CD;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #DAD7CD;
+    transition: color .3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #588157;
+}
+
+
+/* NAVBAR */
+
+.navbar .nav-link {
+    font-weight: 700;
+    color:#DAD7CD;
+}
+
+.navbar .nav-link:hover {
+    color: #A3B18A;
+}
+
+.navbar .h3 {
+    color:#DAD7CD;
+}
+
+.main {
+    padding: 0;
+}
+
+.hero {
+    height: 50vh;
+    background-color: #344E41;
+}
+
+.about {
+    padding-top: 5em;
+    background-color: #7871AA;
+    position: relative;
+}
+
+.wave-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-1 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 120px;
+}
+
+.wave-1 .shape-fill {
+    fill: #344E41;
+}
+
+.about-content {
+    margin: 5em 0;
+}
+
+.portfolio {
+    padding-top: 5em;
+    background-color: #5386E4;
+    position: relative;
+}
+
+.wave-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-2 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 115px;
+}
+
+.wave-2 .shape-fill {
+    fill: #7871AA;
+}
+
+.portfolio-content {
+    margin: 0 10%;
+}
+
+.card {
+    background-color: #2B6ADE;
+    color:#DAD7CD;
+    padding: 1em;
+    border: none;
+}
+
+.btn {
+    background-color: #DAD7CD;
+    color: #344E41;
+    font-weight: 500;
+}
+
+.logo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+p {
+    font-weight: 500;
+    color: #DAD7CD;
+}
+
+.wave-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 129px;
+}
+
+.wave-3 .shape-fill {
+    fill: #5386E4;
+}
+
+.form {
+    position: relative;
+}
+
+.form-content {
+    margin: 200px 10%;
+
+
+}
+
+label {
+    font-weight: 600;
+}
+
+i {
+    color: #DAD7CD;
+}
+
+a {
+    text-decoration: none;
+    color:#DAD7CD;
+    font-weight: 500;
+}
